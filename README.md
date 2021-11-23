@@ -1,3 +1,3 @@
 # beute
 beute
-A predator prey system
+A predator-prey system
