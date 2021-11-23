@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="10"/>
+    <BuildModes Active="Default"/>
+    <Units Count="3">
+      <Unit0>
+        <Filename Value="beute.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="2"/>
+        <CursorPos X="25" Y="10"/>
+        <UsageCount Value="23"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="umain.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmMain"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="UMain"/>
+        <TopLine Value="58"/>
+        <CursorPos Y="88"/>
+        <UsageCount Value="23"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="unitbeute.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Unitbeute"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="145"/>
+        <CursorPos X="42" Y="41"/>
+        <UsageCount Value="23"/>
+        <Loaded Value="True"/>
+      </Unit2>
+    </Units>
+    <JumpHistory Count="18" HistoryIndex="17">
+      <Position1>
+        <Filename Value="unitbeute.pas"/>
+        <Caret Column="15"/>
+      </Position1>
+      <Position2>
+        <Filename Value="beute.lpr"/>
+      </Position2>
+      <Position3>
+        <Filename Value="beute.lpr"/>
+        <Caret Line="10" Column="26"/>
+      </Position3>
+      <Position4>
+        <Filename Value="umain.pas"/>
+        <Caret Line="9" Column="29"/>
+      </Position4>
+      <Position5>
+        <Filename Value="umain.pas"/>
+        <Caret Line="89" TopLine="70"/>
+      </Position5>
+      <Position6>
+        <Filename Value="umain.pas"/>
+        <Caret Line="141" Column="5" TopLine="98"/>
+      </Position6>
+      <Position7>
+        <Filename Value="umain.pas"/>
+        <Caret Line="123" Column="2" TopLine="82"/>
+      </Position7>
+      <Position8>
+        <Filename Value="umain.pas"/>
+        <Caret Line="33" TopLine="10"/>
+      </Position8>
+      <Position9>
+        <Filename Value="umain.pas"/>
+        <Caret Line="102" Column="23" TopLine="80"/>
+      </Position9>
+      <Position10>
+        <Filename Value="umain.pas"/>
+        <Caret Line="93" Column="3" TopLine="81"/>
+      </Position10>
+      <Position11>
+        <Filename Value="umain.pas"/>
+        <Caret Line="73" Column="22" TopLine="69"/>
+      </Position11>
+      <Position12>
+        <Filename Value="umain.pas"/>
+        <Caret Line="41" Column="5" TopLine="19"/>
+      </Position12>
+      <Position13>
+        <Filename Value="umain.pas"/>
+        <Caret Line="109" Column="8" TopLine="79"/>
+      </Position13>
+      <Position14>
+        <Filename Value="umain.pas"/>
+        <Caret Line="111" Column="77" TopLine="86"/>
+      </Position14>
+      <Position15>
+        <Filename Value="unitbeute.pas"/>
+        <Caret Line="181" Column="42" TopLine="146"/>
+      </Position15>
+      <Position16>
+        <Filename Value="unitbeute.pas"/>
+        <Caret Line="166" TopLine="143"/>
+      </Position16>
+      <Position17>
+        <Filename Value="unitbeute.pas"/>
+        <Caret Line="179" Column="24" TopLine="145"/>
+      </Position17>
+      <Position18>
+        <Filename Value="umain.pas"/>
+        <Caret Line="96" Column="28" TopLine="69"/>
+      </Position18>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>

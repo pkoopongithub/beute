@@ -1,0 +1,93 @@
+object frmMain: TfrmMain
+  Left = 689
+  Height = 621
+  Top = 149
+  Width = 1236
+  BorderStyle = bsDialog
+  Caption = 'beute'
+  ClientHeight = 621
+  ClientWidth = 1236
+  OnClose = FormClose
+  OnCreate = FormCreate
+  ParentFont = True
+  LCLVersion = '1.6.4.0'
+  object pnlBottom: TPanel
+    Left = 0
+    Height = 52
+    Top = 569
+    Width = 1236
+    Align = alBottom
+    ClientHeight = 52
+    ClientWidth = 1236
+    TabOrder = 0
+    object btnNext: TButton
+      Left = 8
+      Height = 33
+      Top = 6
+      Width = 89
+      Caption = '&Nächster Zeittakt'
+      OnClick = Auswerten
+      TabOrder = 0
+    end
+    object btnStart: TButton
+      Left = 110
+      Height = 33
+      Top = 6
+      Width = 89
+      Caption = '&Start'
+      OnClick = btnStartClick
+      TabOrder = 1
+    end
+    object btnStopp: TButton
+      Left = 206
+      Height = 33
+      Top = 5
+      Width = 89
+      Caption = 'Sto&pp'
+      OnClick = btnStoppClick
+      TabOrder = 2
+    end
+    object btnLeer: TButton
+      Left = 310
+      Height = 33
+      Top = 5
+      Width = 89
+      Caption = '&leer'
+      OnClick = btnLeerClick
+      TabOrder = 3
+    end
+    object btnZufall: TButton
+      Left = 408
+      Height = 33
+      Top = 5
+      Width = 89
+      Caption = '&Zufall'
+      OnClick = btnZufallClick
+      TabOrder = 4
+    end
+  end
+  object Spielfeld: TDrawGrid
+    Left = 0
+    Height = 488
+    Top = 0
+    Width = 809
+    ColCount = 80
+    DefaultColWidth = 10
+    DefaultDrawing = False
+    DefaultRowHeight = 20
+    ExtendedSelect = False
+    FixedCols = 0
+    FixedRows = 0
+    Options = [goFixedVertLine, goFixedHorzLine, goVertLine, goHorzLine]
+    RowCount = 24
+    TabOrder = 1
+    OnDrawCell = SpielfeldDrawCell
+    OnSelectCell = SpielfeldSelectCell
+  end
+  object tmrAnimation: TTimer
+    Interval = 40
+    OnTimer = Auswerten
+    left = 8
+    top = 8
+  end
+end
